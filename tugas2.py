@@ -1,6 +1,3 @@
-# Input: jumlah deret
-jumlah_deret = int(input("Masukkan jumlah deret: "))
-
-# Menghitung bilangan genap
-bilangan_genap = [i for i in range(2, jumlah_deret + 1) if i % 2 == 0]
-print("Output:", ', '.join(map(str, bilangan_genap)))
+angka = int (input('angka yang kamu inginkan'))
+for i in range(2, angka + 1, 2):
+    print(i)
