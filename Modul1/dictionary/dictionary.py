@@ -3,7 +3,7 @@ from sqlite3 import Date
 
 
 aku = {
-    "nama": "Muhamad Restu Al Fazhuri"
+    "nama": "Fitriana ningsih"
     "url:" "https://www.fsttundikma.id"
     }
 
@@ -23,8 +23,8 @@ nama_dict = {
 
 # membuat dictionary
 dict = {
-    "nama"      : "Muhamad Restu Al Fazhuri",
-    "NIM"      : 24241070,
+    "nama"      : "Fitriana ningsih",
+    "NIM"      : 24241052,
     "Prodi"     : "Pendidikan Teknologi Informasi",
     "mat_kul"    : ['Algoritma dan Pemrograman', 'Struktur Data', 'PBO'],
     "status"    : True,
@@ -67,7 +67,7 @@ print(date['sosmed']['instagram'])
 # mengubah nilai item Dictionary
 
 data = {
-    "nama": "Restu",
+    "nama": "Fitriana",
     "status": True,
     "sosmed": {
         "instagram": "_"
@@ -86,12 +86,12 @@ print(data)  # sosmed hilang
 
 # membuat dictionary
 mahasiswa = {
-    "name" : "restu"
+    "name" : "Fitriana"
 }
 
 # menambahkan nim
 mahasiswa.update({
-    "nim" : "24241070"
+    "nim" : "24241052"
 })
 
 # melihat hasilnya
